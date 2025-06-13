@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Course PHP Rest API',
+      title: 'Notes app',
       initialRoute: sharedPref.getString("id") == null ? "login" : "home",
       routes: {
         "login": (context) => Login(),
